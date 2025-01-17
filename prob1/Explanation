@@ -1,0 +1,4 @@
+Since p1 is declared as a Person, 
+but the actual runtime type is 
+PersonWithJob, the Overriden equals method
+ is PersonWithJob is used.

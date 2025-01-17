@@ -1,0 +1,2 @@
+Circle is not a Cylinder, inheritance should follow a IS-A relationship.
+There are fields in Cylinder that can not be used by Circle.
