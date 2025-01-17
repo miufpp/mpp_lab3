@@ -6,7 +6,7 @@ public class Admin {
 //		
 		for(Property p: properties) {
 			if(p != null) {
-				totalRent += p.computeRent();
+				totalRent += p.getRent();
 			}
 		}
 		return totalRent;

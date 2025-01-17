@@ -5,10 +5,10 @@ public class Driver {
 	public static void main(String[] args) {
 
 		Property[] objects = { 
-				new House(9000, null, null, null, null), 
-				new Condo(2, null, null, null, null), 
-				new Trailer(null, null, null, null) };
+				new House(9000, null), 
+				new Condo(2, null), 
+				new Trailer(null) };
 		double totalRent = Admin.computeTotalRent(objects);
-		System.out.println(totalRent); 
+		System.out.printf("%,.2f",totalRent); 
 	}
 }
